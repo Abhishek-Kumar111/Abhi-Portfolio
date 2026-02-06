@@ -2,9 +2,7 @@
   "name": "Abhishek-portfolio",
   "version": "0.1.0",
   "private": true,
-
-  "homepage": "https://Abhishek-Kumar111.github.io/Abhi-Portfolio",
-
+  "homepage": "https://Abhishek-Kumar111.github.io/Abhi-Portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
@@ -26,7 +24,6 @@
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -35,8 +32,19 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
